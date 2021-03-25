@@ -3965,7 +3965,6 @@ body.welcome-page {
 }
 .welcome {
     background-image: none;
-    background-color: #fff;
     display: flex;
     flex-direction: column;
     font-family: inherit;
@@ -4153,6 +4152,7 @@ body.welcome-page {
 .welcome.without-content .welcome-card {
     min-width: 500px;
     max-width: 580px;
+    margin-bottom: 100px;
 }
 .welcome .welcome-cards-container {
     color: #131519;
