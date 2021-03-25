@@ -4183,7 +4183,7 @@ body.welcome-page {
 .welcome .welcome-card--shadow {
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.15);
 }
-/* .welcome .welcome-footer {
+.welcome .welcome-footer {
     background: #131519;
     color: #fff;
     margin-top: 40px;
@@ -4211,7 +4211,7 @@ body.welcome-page {
 .welcome .welcome-footer-row-1-text {
     max-width: 200px;
     margin-right: 16px;
-} */
+}
 .badge-round {
     background-color: #165ecc;
     border-radius: 50%;
