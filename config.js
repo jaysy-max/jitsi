@@ -42,7 +42,7 @@ var config = {
     testing: {
         // Disables the End to End Encryption feature. Useful for debugging
         // issues related to insertable streams.
-        // disableE2EE: false,
+        disableE2EE: true,
 
         // P2P test mode disables automatic switching to P2P when there are 2
         // participants in the conference.
@@ -365,7 +365,7 @@ var config = {
     // enableCalendarIntegration: false,
 
     // When 'true', it shows an intermediate page before joining, where the user can configure their devices.
-    // prejoinPageEnabled: false,
+    prejoinPageEnabled: true,
 
     // If etherpad integration is enabled, setting this to true will
     // automatically open the etherpad when a participant joins.  This
