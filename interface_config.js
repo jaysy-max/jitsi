@@ -189,7 +189,7 @@ var interfaceConfig = {
     SUPPORT_URL: 'https://cdd.step.com.ph/',
 
     TOOLBAR_ALWAYS_VISIBLE: false,
-
+    
     /**
      * The name of the toolbar buttons to display in the toolbar, including the
      * "More actions" menu. If present, the button will display. Exceptions are
@@ -250,7 +250,6 @@ var interfaceConfig = {
     //    IBI: 'com.atlassian.JitsiMeet.ios',
     //    ISI: '1165103905'
     // },
-
     /**
      * Specify mobile app scheme for opening the app from the mobile browser.
      */
@@ -278,6 +277,7 @@ var interfaceConfig = {
     // prevent fear when commenting out the last value.
     // eslint-disable-next-line sort-keys
     makeJsonParserHappy: 'even if last key had a trailing comma'
+    
 
     // No configuration value should follow this line.
 };
