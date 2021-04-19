@@ -28,7 +28,7 @@ var config = {
     // websocket: 'wss://meet.step.com.ph/xmpp-websocket',
 
     // The name of client node advertised in XEP-0115 'c' stanza
-    clientNode: 'http://jitsi.org/jitsimeet',
+    clientNode: 'https://cdd.step.com.ph/',
 
     // The real JID of focus participant - can be overridden here
     // Do not change username - FIXME: Make focus username configurable
@@ -334,7 +334,7 @@ var config = {
 
     // Whether to use a welcome page or not. In case it's false a random room
     // will be joined when no room is specified.
-    enableWelcomePage: true,
+    enableWelcomePage: false,
 
     // Enabling the close page will ignore the welcome page redirection when
     // a call is hangup.
@@ -433,8 +433,8 @@ var config = {
         // The STUN servers that will be used in the peer to peer connections
         stunServers: [
 
-            // { urls: 'stun:meet.step.com.ph:3478' },
-            { urls: 'stun:meet-jit-si-turnrelay.jitsi.net:443' }
+            { urls: 'stun:meet.step.com.ph:3478' }
+            // { urls: 'stun:meet-jit-si-turnrelay.jitsi.net:443' }
         ]
 
         // Sets the ICE transport policy for the p2p connection. At the time
@@ -577,7 +577,7 @@ var config = {
     // disableInviteFunctions: true,
 
     // Disables storing the room name to the recents list
-    // doNotStoreRoom: true,
+    doNotStoreRoom: true,
 
     // Deployment specific URLs.
     // deploymentUrls: {
